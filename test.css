@@ -47,6 +47,40 @@ section {
 main {
   width: 70%;
 }
+main ul {
+margin: 0;
+padding: 0;
+display: flex;
+
+flex-direction: row;
+flex-wrap: wrap
+}
+main li {
+  list-style: none;
+  width: 29%;
+  margin: 2%;
+}
+main li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+mail li a:hover {
+  text-decoration: underline;
+}
+main li img {
+  width: 100%;
+  height: auto;
+}
+main li h3 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 0 0 1rem;
+}
+main li p {
+  margin: 0 0 1rem;
+  color: #888;
+}
 
 aside {
   width: 30%;
