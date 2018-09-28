@@ -94,3 +94,12 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.noSidebar main {width: 100%}
+.noSidebar main li {width: 21%}
+.noSidebar aside {width: 0; padding: 0}
+
+main,
+aside {
+  transition: all 0.5s ease;
+}
